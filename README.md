@@ -18,6 +18,27 @@ Workflow is following:
 
 Thus, *using this template you could accomplish both programming assignments on Java and have practiced Scala while writing unit tests*.
 
+Source code
+-----------
+
+SBT uses the same directory structure as Maven for source files by default (all paths are relative to the base directory):
+
+```
+src/
+  main/
+    resources/
+       <input text files from assignamnt here>
+    java/
+       <programming assignment on Java here>
+  test/
+    resources
+       <input text files from assignment here>
+    scala/
+       <test Scala sources>
+    java/
+       <test Java sources>
+```
+
 Usage
 -----
 
