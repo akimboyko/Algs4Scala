@@ -1,4 +1,4 @@
-name := "algs4partII-wordnet"
+name := "wordnet"
 
 organizationName := "Coursera"
 
@@ -17,9 +17,9 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.specs2"          %   "specs2_2.10"            % "2.3.10"     % "test"
+   "org.specs2"         %   "specs2_2.10"            % "2.3.10"     % "test"
   ,"junit"              %   "junit"                  % "4.11"       % "test"
-  ,"org.scalatest"      %   "scalatest_2.10"         % "1.9.1"      % "test"
+  ,"org.scalatest"      %   "scalatest_2.10"         % "2.1.0"      % "test"
 )
 
 TaskKey[Unit]("zip") <<= baseDirectory map {
